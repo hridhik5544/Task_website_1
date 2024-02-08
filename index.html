@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
+ <link rel="stylesheet" href="./website.css">
 </head>
 <link rel="stylesheet"
   href="@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito+Sans:opsz,wght@6..12,200&family=Pacifico&family=Ubuntu:wght@300&display=swap');">
@@ -24,6 +24,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 <!--  -->
 
 
@@ -31,122 +32,124 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body bg-light container mt-2">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-1" href="#"><img src="./media_task/Logo.png" alt=""
-          style="width: 90px; height: 55px ;"></a>
-      <button class="navbar-toggler shadow-none  border-0 " type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse ms-5 justify-content-center" id="navbarSupportedContent">
-        <div>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <li class="nav-item">
-              <a class="nav-link active text-center " aria-current="page" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px; font-weight: 600;">All Sports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Apparel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Footwear</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Fitness</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Muscle Support</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Accessories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
-                  font-family: 'Nunito Sans', sans-serif;
-                  font-family: 'Pacifico', cursive;
-                  font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Clubs</a>
-            </li>
+  <div class="container-fluid fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg bg-body container mt-2 ">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-1" href="#"><img src="./media_task/Logo.png" alt=""
+            style="width: 90px; height: 55px ;"></a>
+        <button class="navbar-toggler shadow-none  border-0 " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5 justify-content-center" id="navbarSupportedContent">
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-center " aria-current="page" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px; font-weight: 600;">All Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Apparel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Footwear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Fitness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Muscle Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-family: 'Abril Fatface', serif;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Pacifico', cursive;
+                    font-family: 'Ubuntu', sans-serif; font-size: 14px;font-weight: 600;">Clubs</a>
+              </li>
+          </div>
+  
+          <!-- Dropdown not needed for now  -->
+  
+  
+          <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+          <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+          <!-- </ul> -->
+          <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+  
+  
+          <!-- <li class="nav-item alig ">
+                <a class="nav-link " href="#" style=""> <i class=""  ></i></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#" style=""> <i class="fa-regular fa-user"></i></a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#" style=""> <i class=""></i></a>
+              </li>
+             -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass fas fa-home"></i> </a>
+              </li>
+              <li class="nav-item" style="text-align: right;">
+                <a class="nav-link" href="#"><i class="fa-regular fa-user fas "></i> </a>
+              </li>
+              <li class="nav-item" style="text-align: right;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping fas fa-envelope"></i> </a>
+              </li>
+            </ul>
+          </div>
+  
         </div>
-
-        <!-- Dropdown not needed for now  -->
-
-
-        <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-        <!-- <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li> -->
-        <!-- </ul> -->
-        <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
-
-
-        <!-- <li class="nav-item alig ">
-              <a class="nav-link " href="#" style=""> <i class=""  ></i></a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="#" style=""> <i class="fa-regular fa-user"></i></a>
-            </li>
-            <li class="nav-item me-5">
-              <a class="nav-link" href="#" style=""> <i class=""></i></a>
-            </li>
-           -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass fas fa-home"></i> </a>
-            </li>
-            <li class="nav-item" style="text-align: right;">
-              <a class="nav-link" href="#"><i class="fa-regular fa-user fas "></i> </a>
-            </li>
-            <li class="nav-item" style="text-align: right;">
-              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping fas fa-envelope"></i> </a>
-            </li>
-          </ul>
-        </div>
-
+  
       </div>
-
-    </div>
-
-  </nav>
+  
+    </nav>
+  </div>
  
 
 
 
   <!-- carousel 2 -->
 
-  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+  <div id="carouselExampleRide" class="carousel slide" style="margin-top: 90px;" data-bs-ride="true">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./media_task/CFC_BANNER_WEBSITE.jpg" class="d-block w-100" alt="...">
@@ -222,6 +225,60 @@
         </div>
       </div>
     </div>
+    <div class="container w-50">
+      <div class=" row mt-5 border align-content-center bg-light d-flex justify-content-center p-1">
+        <div class="col-lg-6  p-0 text-center"><h1>Sportho</h1>
+        <div class="row">
+          <div class="col"><p>Explore a wide range sports products (equipment, apparel, and accessories) in India from NIVIA Sports which are designed to enhance your performance to ..</p></div>
+        </div>
+        </div>
+        <div class="col-lg-6  p-0"><img class="img-fluid" src="./media_task/sporto.jpg" alt=""style="width: 100%; display: block;"></div>
+        
+      </div>
+    </div>
+    <div class=" p-5">
+      <div class="row mt-5 row-gap-3">
+        <div class="col-lg-6"><img src="./media_task/dominator.jpg" alt="" style="width: 100%; display: block;"></div>
+        <div class="col-lg-6"><img src="./media_task/gym_gloves.jpg" alt="" style="width: 100%; display: block;"></div>
+      </div>
+    </div>
+    <!-- card -->
+    <div class="container">
+    <div class="row container row-gap-3">
+      <!-- men -->
+      <div class="men col-lg-4 col-md-6 w-250px shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+        <div class="card" style="width: 18rem; height: 400px;">
+          <img src="./media_task/men.jpg" class="card-img-top" alt="..."style="height: 400px; " >
+          <div class="card-body">
+            <h5 class="card-title text-center">Men</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-outline-primary"> View more</a>
+          </div>
+        </div>
+      </div>
+      <!-- women -->
+      <div class="wmen col-lg-4 col-md-6 w-250px shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="card" style="width: 18rem; height: 400px;">
+          <img src="./media_task/women_2.jpg" class="card-img-top " alt="..." style="height: 400px;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Women</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-outline-primary">View more</a>
+          </div>
+        </div>
+      </div>
+      <!-- kids -->
+      <div class="kidz col-lg-4 col-md-6 w-250px shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="card" style="width: 18rem;height: 400px;">
+          <img src="./media_task/kids.jpg" class="card-img-top" alt="..." style="height: 400px;">
+          <div class="card-body">
+            <h5 class="card-title text-center">kidz</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-outline-primary  justify-content-center">View more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
