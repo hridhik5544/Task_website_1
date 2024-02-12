@@ -1,5 +1,27 @@
-
+@media(min-width=400px) {
+    .logo{
+        width: 45px;
+        height: 25px;
+    }
+    
+}
 .men,.wmen,.kidz{
     text-align: center;
 }
+.wmen:hover{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.kidz:hover{
+    width: 470px;
+    height: 300px;
 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.men:hover{
+    width: 470px;
+    height: 300px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
