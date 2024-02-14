@@ -25,3 +25,45 @@
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+.domi,.gymg{
+    transition: 1s ease;
+}
+.domi:hover,.gymg:hover{
+    
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+@media (max-width:768px ) {
+    fotz{
+        text-align: center;
+    }
+}
+.socialicon{
+   display: flex;
+   justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 60%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+/* hover */
+.socialicon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
